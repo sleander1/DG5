@@ -134,7 +134,7 @@ signed long freqchange = 0;   // holds the hfo/bfo frequency delta from the last
 
 String inputString = "";         // a string to hold incoming command
 boolean stringComplete = false;  // whether the string is complete
-char buffer[9];                  // buffer used for spring function to assemble LCD display
+char buffer[16];                  // buffer used for spring function to assemble LCD display
 
 
 void setup () 
