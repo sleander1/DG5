@@ -225,6 +225,13 @@ while (FreqCount.available() == 0);
 //    Serial.println(frq);
 FreqCount.end();
 
+// [erikarn] I'm seeing the enable line not STAY low until we toggle it
+// as an enable line.  Ideally this stays low until the LCD module brings it
+// high.
+
+pinMode(12, OUTPUT);
+digitalWrite(12, LOW);
+
  
 //Correction Factor, if needed.  This is added to each of the 3 frequencies read.
 
