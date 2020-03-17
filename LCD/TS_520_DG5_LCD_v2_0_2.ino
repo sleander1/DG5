@@ -134,7 +134,7 @@ signed long freqchange = 0;   // holds the hfo/bfo frequency delta from the last
 
 String inputString = "";         // a string to hold incoming command
 boolean stringComplete = false;  // whether the string is complete
-char buffer[9];                  // buffer used for spring function to assemble LCD display
+char buffer[16];                  // buffer used for spring function to assemble LCD display
 
 
 void setup () 
@@ -224,6 +224,13 @@ while (FreqCount.available() == 0);
      frq = (FreqCount.read())*10;
 //    Serial.println(frq);
 FreqCount.end();
+
+// [erikarn] I'm seeing the enable line not STAY low until we toggle it
+// as an enable line.  Ideally this stays low until the LCD module brings it
+// high.
+
+pinMode(12, OUTPUT);
+digitalWrite(12, LOW);
 
  
 //Correction Factor, if needed.  This is added to each of the 3 frequencies read.
