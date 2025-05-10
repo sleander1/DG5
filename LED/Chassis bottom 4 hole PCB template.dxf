@@ -1,0 +1,166 @@
+  0
+SECTION
+  2
+HEADER
+  9
+$ACADVER
+  1
+AC1009
+  0
+ENDSEC
+  0
+SECTION
+  2
+TABLES
+  0
+TABLE
+  2
+LAYER
+  70
+1
+  0
+LAYER
+  2
+Layer_0
+  70
+0
+  62
+7
+  6
+CONTINUOUS
+  0
+ENDTAB
+  0
+ENDSEC
+  0
+SECTION
+  2
+ENTITIES
+  0
+POLYLINE
+  5
+90
+  8
+Layer_0
+  62
+7
+  70
+1
+  66
+1
+  10
+0
+  20
+0
+  30
+0
+  0
+VERTEX
+  5
+90
+  8
+Layer_0
+  10
+103
+  20
+112.44999
+  0
+VERTEX
+  5
+91
+  8
+Layer_0
+  10
+103
+  20
+27.549995
+  0
+VERTEX
+  5
+92
+  8
+Layer_0
+  10
+2.9999962
+  20
+27.550011
+  0
+VERTEX
+  5
+93
+  8
+Layer_0
+  10
+3.0000038
+  20
+112.45
+  0
+SEQEND
+  0
+CIRCLE
+  5
+95
+  8
+Layer_0
+  62
+7
+  10
+84.75
+  20
+41.300003
+  30
+0
+  40
+1
+  0
+CIRCLE
+  5
+95
+  8
+Layer_0
+  62
+7
+  10
+84.75
+  20
+96.669983
+  30
+0
+  40
+1
+  0
+CIRCLE
+  5
+95
+  8
+Layer_0
+  62
+7
+  10
+17.950012
+  20
+41.300003
+  30
+0
+  40
+1
+  0
+CIRCLE
+  5
+95
+  8
+Layer_0
+  62
+7
+  10
+17.950012
+  20
+96.669983
+  30
+0
+  40
+1
+  0
+ENDSEC
+  0
+EOF
